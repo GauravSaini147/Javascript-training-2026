@@ -67,7 +67,7 @@ JavaScript example using `const`** with multiple outputs separated by `<br>` lin
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JavaScript Const Example</title>
+  <title>JavaScript Const </title>
 </head>
 <body>
   <script>
@@ -93,50 +93,37 @@ JavaScript example using `const`** with multiple outputs separated by `<br>` lin
 - `"<br>"` → Inserts a line break so each output appears on a new line.  
 
 
+Here’s a **classic JavaScript example using `const`** with multiple outputs separated by `<br>` line breaks:
+
+```html
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JavaScript Var Example</title>
+  <title>JavaScript Const </title>
 </head>
 <body>
   <script>
-    var name = "Gaurav";
-    var project = "Wildlife Conservation Project";
-    var year = 2026;
-    var language = "JavaScript";
+    const project = "Wildlife Conservation";
+    const year = 2026;
+    const language = "JavaScript";
+    const type = "Dynamic, Interpreted";
 
-    document.write("Name: " + name + "<br>");
     document.write("Project: " + project + "<br>");
     document.write("Year: " + year + "<br>");
     document.write("Language: " + language + "<br>");
+    document.write("Type: " + type + "<br>");
   </script>
 </body>
 </html>
-Explanation
-var → Declares a variable with function scope (older style, before let and const).
+```
 
-Reassignment allowed → You can change the value of a var variable later.
+---
 
-document.write() + <br> → Outputs text to the page with line breaks.
+##  Explanation
+- `const` → Declares a constant variable (its value cannot be reassigned).  
+- `document.write()` → Outputs text directly to the webpage.  
+- `"<br>"` → Inserts a line break so each output appears on a new line.  
 
-Example of Reassignment with var
-html
-<script>
-  var score = 50;
-  document.write("Initial Score: " + score + "<br>");
-
-  score = 90; // reassigned
-  document.write("Updated Score: " + score + "<br>");
-</script>
-**Key difference:**
-
-var → function-scoped, can be redeclared.
-
-let → block-scoped, can be reassigned but not redeclared in the same scope.
-
-const → block-scoped, cannot be reassigned or redeclared.
-
-using alert() to show messages in popup dialog boxes:
 
 html
 <!DOCTYPE html>
