@@ -200,7 +200,8 @@ console.log(true);               // Boolean
 console.log([1, 2, 3]);          // Array
 console.log({name: "Gaurav", year: 2026}); // Object
 
-**complete HTML form** with validation and a proper `action` attribute — this is the kind of structure you’d use in a real project:
+
+ **complete HTML form** with validation and a proper `action` attribute — this is the kind of structure you’d use in a real project:
 
 ```html
 <!DOCTYPE html>
@@ -263,4 +264,6 @@ console.log({name: "Gaurav", year: 2026}); // Object
   - `minlength` → Password must have at least 6 characters.  
   - `pattern="[0-9]{10}"` → Phone must be exactly 10 digits.  
 - The browser automatically prevents submission if validation fails and shows error messages.  
+
+
 
